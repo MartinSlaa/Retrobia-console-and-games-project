@@ -6,7 +6,7 @@ from pygame.math import Vector2
 os.environ['SDL_VIDEO_CENTERED'] = '1'
 
 
-class Unit():
+class Unit:
     def __init__(self, state, position, tile):
         self.state = state
         self.position = position
