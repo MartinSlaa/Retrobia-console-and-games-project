@@ -10,6 +10,7 @@ def main():
 
         if(choice == "1"):
             print("\n\nGame 1")
+            test.testFunc()
             printLines(50)
             time.sleep(1)
         elif(choice == "2"):
