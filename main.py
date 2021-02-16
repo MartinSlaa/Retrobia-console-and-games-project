@@ -1,5 +1,4 @@
 import time
-import test
 
 def main():
     while True:
@@ -9,22 +8,26 @@ def main():
         printLines(50)
 
         if(choice == "1"):
-            print("\n\nGame 1")
-            test.testFunc()
+            print("\n\nStarting [Game Name]...")
+            printLines(50)
+            print("\n\nExiting [Game Name]...")
             printLines(50)
             time.sleep(1)
         elif(choice == "2"):
-            print("\n\nGame 2")
+            print("\n\nStarting [Game Name]...")
+            printLines(50)
+            print("\n\nExiting [Game Name]...")
             printLines(50)
             time.sleep(1)
         elif(choice == "3"):
-            print("\n\nGame 3")
+            print("\n\nStarting [Game Name]...")
+            printLines(50)
+            print("\n\nExiting [Game Name]...")
             printLines(50)
             time.sleep(1)
         elif(choice == "0"):
             print("\n\nExiting...")
             printLines(50)
-            time.sleep(1)
             break
         else:
             print("\n\nInvalid...")
