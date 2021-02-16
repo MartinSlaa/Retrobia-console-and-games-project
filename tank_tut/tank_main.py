@@ -101,14 +101,14 @@ class UserInterface():
 
         # Rendering properties
         self.cellSize = Vector2(64, 64)
-        self.unitsTexture = pygame.image.load(os.path.join("units.png"))
-        self.groundTexture = pygame.image.load("ground.png")
+        self.unitsTexture = pygame.image.load(os.path.join("./tank_tut/units.png"))
+        self.groundTexture = pygame.image.load(os.path.join("./tank_tut/ground.png"))
 
         # Window
         windowSize = self.gameState.worldSize.elementwise() * self.cellSize
         self.window = pygame.display.set_mode((int(windowSize.x), int(windowSize.y)))
         pygame.display.set_caption("Discover Python & Patterns - https://www.patternsgameprog.com")
-        pygame.display.set_icon(pygame.image.load("icon.png"))
+        pygame.display.set_icon(pygame.image.load("./tank_tut/icon.png"))
         self.moveTankCommand = Vector2(0, 0)
 
         # Loop properties
