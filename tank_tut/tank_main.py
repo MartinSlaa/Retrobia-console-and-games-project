@@ -101,7 +101,7 @@ class UserInterface():
 
         # Rendering properties
         self.cellSize = Vector2(64, 64)
-        self.unitsTexture = pygame.image.load("units.png")
+        self.unitsTexture = pygame.image.load(os.path.join("units.png"))
         self.groundTexture = pygame.image.load("ground.png")
 
         # Window
